@@ -1,0 +1,11 @@
+Student name: [Your Name]
+Team slug: [TEAM_SLUG]
+Live URL: https://your-live-site.netlify.app
+Repo URL: https://github.com/your-username/your-repo
+Stack: React, Vite, Netlify Functions, Supabase, Resend
+
+CMS access: Content is loaded from the Netlify Function API endpoint /api/page. The same API can be backed by Supabase CMS tables and falls back to built-in default content when Supabase is unavailable.
+
+Supabase usage: Supabase is used for CMS content retrieval in /api/page and for saving inquiries into the inquiries table in /api/contact.
+
+Resend integration: Email delivery is implemented inside netlify/functions/api.js using the Resend API and the RESEND_API_KEY environment variable.
